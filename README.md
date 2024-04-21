@@ -24,36 +24,6 @@ Security Groups - The server_sg security group is applied to the EC2 instance to
 EC2 Instances - The server EC2 instance is launched within the public subnet. It's configured to run a web-based TicTacToe game, using a variety of technologies (Python, Flask, Node.js, and Nginx). The instance setup includes the use of provisioners for software installation and configuration.
 
 
-## Preview
-
-The application screenshots demonstrate the successful deployment and functioning of the TicTacToe game hosted on the AWS infrastructure. Screenshots include the Terraform application result, gameplay sessions, and AWS console views of the running EC2 instance and its configurations.
-
-Screenshot after terraform apply:
-
-![terraform_apply](img/apply_result.png)
-
-Screenshot of game during game session:
-
-![game_during](img/game_during.png)
-
-Screenshot of game after winning:
-
-![game_end](img/game_end.png)
-
-
-
-Screenshot of EC2 instance running:
-
-![ec2_running](img/ec2_instance.png)
-
-Screenshot of EC2 instance info:
-
-![ec2_running_info](img/ec2_instance_info.png)
-
-Screenshot of EC2 instance info - security groups:
-
-![ec2_running_security](img/ec2_instance_info_security.png)
-
 
 ## Reflections
 
